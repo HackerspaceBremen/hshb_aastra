@@ -1,0 +1,40 @@
+<?php
+
+# 2013 Jens Bretschneider, mail@jens-bretschneider.de
+
+# Rename to config.php when configuration is complete!
+
+# Configuration settings
+$use_test_backend = TRUE;	# Change to FALSE if ready for use
+
+# Login credentials
+$user = 'CHANGEME';		# Insert username and password for backend authentication
+$pass = 'CHANGEME';
+
+# "Open Space" messages
+$open_space_msg = array(
+	array('Neutral/kein Thema', 	""),
+	array('OpenSpace', 		"Open Space - Komm' vorbei, lern' uns kennen, stell' Fragen, zeig' deine Projekte, mach' Vorschläge, baue, bastele, programmiere oder lasse dich anstecken."),
+	array('Workshop', 		"Öffentlicher Themenabend - Wir gehen ein Thema aus den Bereichen Technik und Gesellschaft in Form von Workshops, Vorträgen, Diskussionsrunden oder ähnlichem an."),
+	array('Eve of Projects', 	"Eve(ning) of Projects - Mitglieder arbeiten an ihren eigenen oder gemeinsamen Projekten."),
+	array('SDR-Abend',		"SDR-Abend - Wir beschäftigen uns mit 'Software Defined Radio' und frei empfangbaren analogen sowie digitalen Funkdiensten."),
+	array('3D-Druck',		"Rapid Prototyping/3D-Druck - Die Welt des dreidimensionalen Druckens – Von der Idee zum fertigen Produkt aus Kunstoff."),
+	array('Party/Feier',		"It's Party Time!"),
+	array('Interne Veranstalt.',	"Interne Veranstaltung (sorry - nur für Mitglieder!)"),
+	array('Bremen.js',		"Heute trifft sich die JavaScript User Group Bremen - siehe http://bremenjs.de/!"),
+	array('Plenum',			"Wir besprechen interne Vereinsthemen.")
+);
+
+# "Closed Space" message
+$closed_space_msg = array(
+	array('Neutral/kein Thema',	""),
+	array('Pause',			"Kurze Pause - sind gleich zurück!")
+);
+
+# Allowed phones
+$allowed_phone_ips = array(
+	'1.2.3.4',		# Change to IP phone IP address(es)
+	'5.4.3.2'
+);
+
+?>
